@@ -1,83 +1,81 @@
-html{
-box-sizing: border-box;
-background-color: #c9b5ab;
-color: #222;
-font-family: "PT serif", serif;
-line-height: 1.5;
+html {
+  box-sizing: border-box;
+  background-color: #c9b5ab;
+  color: #222;
+  font-family: "PT serif", serif;
+  line-height: 1.5;
 }
 
-*,
-*::before,
-*::after{
+*, *::before, *::after {
   box-sizing: inherit;
 }
 
-body{
+body {
   margin: 0;
 }
 
-img{
-  width: 100%
+img {
+  width: 100%;
 }
 
-a{
-  color: #8f2440
-  text-decoration:none;
+a {
+  color: #8f2440;
+  text-decoration: none;
 }
 
-a:hover{
-  color: #3f1622
-  text-decoration:underline;
+a:hover {
+  color: #3f1622;
+  text-decoration: underline;
 }
 
-h1,h2{
-
+h1, h2 {
+  font-family: "PT Serif", serif;
 }
 
-  nav{
-  font-family:"PT Sans", sans-serif;
+nav {
+  font-family: "PT Sans", sans-serif;
   font-size: 1.125rem;
   font-weight: bold;
 }
 
-nav ol{
-  list-style-type:italic
+nav ol {
+  list-style-type: italic;
 }
 
-
-
-h1{
-  font-size:
+h1 {
+  font-size: 1.5rem;
 }
-blockquote{
-  font-size: .8rem
+
+blockquote {
+  font-size: .8rem;
 }
 
 blockquote p {
-  font-size:1.5rem
-  font-style:italic;
+  font-size: 1.5rem;
+  font-style: italic;
 }
 
 blockquote strong {
   font-weight: normal;
 }
 
-.Serving{
+.serving {
   font-style: italic;
 }
 
-dt{
+dt {
   font-weight: bold;
 }
-.varieties{
+
+.varieties {
   list-style-type: lower-greek;
 }
 
-aside ul{
-  font-size: .8rem
-  list-style-type:circle;
+aside ul {
+  font-size: .8rem;
+  list-style-type: circle;
 }
 
-small{
-  font-size: .8rem
+small {
+  font-size: .8rem;
 }
